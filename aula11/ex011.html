@@ -6,6 +6,22 @@
     <title>Exercício 11</title>
 </head>
 <body>
-    
+    <h1>Nacionalidade</h1>
+    Onde você nasceu? <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="ver()">
+    <div id="res">
+
+    </div>
+    <script>
+        function ver() {
+            var pais = window.document.querySelector('input#txtnac')
+            var res = window.document.querySelector('div#res')            
+            if (pais == 'Brasil') {
+                res.innerHTML = `<p>Você é brasileiro</p>`
+            } else {
+                res.innerHTML = `<p>Você é estrangeiro</p>`
+            }
+        }
+    </script>
 </body>
 </html>
