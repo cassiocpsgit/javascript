@@ -3,8 +3,8 @@ function carregar(){
     var img = window.document.getElementById('imagem')
     var sdc = window.document.getElementById('sdc')
     var data = new Date()
-    //var hora = data.getHours()
-    var hora = 16
+    var hora = data.getHours()
+    //var hora = 18
     msg.innerHTML = `Agora são ${hora} horas.`
     if (hora >= 0 && hora < 12) {
         img.src = 'img/dia.png'
