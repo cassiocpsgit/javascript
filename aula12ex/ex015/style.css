@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(47, 112, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;    
+}
+
+header {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.644);
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.527);
+}
+
+div#msg {
+    text-align: center;
+    font-size: 20pt;
+}
+
+div > img#imagem {
+    width: 90%;
+    transform: translate(5%, 3%);
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0px 0px 10px black;
+}
