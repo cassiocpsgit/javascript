@@ -6,3 +6,4 @@ num.push(7) //adiciona um item no final do vetor
 console.log(`O vetor é ${num}`)
 num.length //conta qtos itens o vetor possui
 num.sort() //coloca em ordem crescente
+num.indexOf() // busca o número da posição do elemento no vetor
