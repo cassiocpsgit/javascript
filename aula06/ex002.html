@@ -21,9 +21,13 @@
 <body>
     <h1>Olá mundo!</h1>
     <p>Pronto, já me livrei da maldição.</p>
+    <p id="ola"></p>
     <script>       
         var nome = window.prompt('Qual é o seu nome?')
+        var sobrenome = window.prompt('Qual é o seu sobrenome?')
         window.alert('É um prazer te conhecer, ' + nome + '!')
+        document.getElementById('ola').innerHTML = `${nome} ${sobrenome}.`
+        document.write(`${nome} seu sobrenome é ${sobrenome}.`)
     </script>
 </body>
 </html>
