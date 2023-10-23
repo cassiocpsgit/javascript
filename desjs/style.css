@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(66, 152, 250);
+    color: white;
+    margin-top: 50px;    
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  div#msgemail {
+    margin: 20px;
+  }
